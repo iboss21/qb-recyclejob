@@ -1,15 +1,8 @@
 Config = {}
 
-Config = {
-	
-	EnableOpeningHours = true, -- Enable opening hours? If disabled you can always open the pawnshop.
-	OpenHour = 8, -- From what hour should the pawnshop be open?
-	CloseHour = 22, -- From what hour should the pawnshop be closed?
-}
-
 Config['delivery'] = {
-	outsideLocation = vector4(4954.43, -5107.96, 3.77, 334.84),
-	insideLocation = vector4(1048.04, -3097.12, -39.0, 275.26),
+	outsideLocation = vector4(55.576, 6472.12, 31.42, 230.732),
+	insideLocation = vector4(1072.72, -3102.51, -40.0, 82.95),
 	pickupLocations = {
 		[1] = vector4(1067.68, -3095.43, -39.9, 342.39),
 		[2] = vector4(1065.2, -3095.56, -39.9, 356.53),
@@ -33,7 +26,7 @@ Config['delivery'] = {
 		[20] = vector4(1055.52, -3109.76, -39.9, 181.36),
 		[21] = vector4(1053.16, -3109.71, -39.9, 177.0),
 	},
-	dropLocation = vector4(1070.64, -3096.46, -39.0, 282.36),
+	dropLocation = vector4(1048.224, -3097.071, -38.999, 274.810),
 	warehouseObjects = {
 		"prop_boxpile_05a",
 		"prop_boxpile_04a",
